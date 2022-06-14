@@ -1,2 +1,2 @@
-# CODIGO DE EJEMPLO BOT TLG.
+## Codigo de ejem bot tlg.
 ###### by @jgalvis414
