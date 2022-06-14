@@ -2,6 +2,7 @@
 let axios = require ('axios')
 const TeleBot = require('telebot');
 const ENDPOINT_GET_PRODUCT = 'https://fakestoreapi.com/products'
+const ENDPOINT_GET_DATA_PRODUCT = 'https://fakestoreapi.com/products/'
 //------------------------------------------------------------ BOTONES ---------------------------------------------
 const BUTTONS = {
   product: {
@@ -49,7 +50,7 @@ const BUTTONS = {
 //----------------------------------------------------------------------------------------------------------
 //--------------------------------------------------------INIT BOT ------------------------------------------
 const bot = new TeleBot({
-  token: '5429834435:AAFQjusO4oNBuJO5XlGMYcOo5-_S38Epvk8',
+  token: 'TU_TOKEN_BOT_AQUI',
   usePlugins: ['namedButtons'],
   pluginConfig: {
       namedButtons: {
